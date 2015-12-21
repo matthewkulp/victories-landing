@@ -1,0 +1,181 @@
+body {
+	margin: 0px;
+	background-color: #F2F2F2;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	color: #3E3E3E;
+	letter-spacing: 0.1px;
+	line-height: 21px;
+}
+
+a {
+	color: #3E3E3E;
+}
+
+p {
+	margin: 0px 0 24px;
+}
+
+textarea:focus, input:focus {
+    outline: 0;
+}
+
+#victoriesLogo img,
+.productImages img {
+	width: 100%;
+}
+
+.productImages img {
+}
+
+#intro {
+	position: relative;
+}
+
+#headerLogo {
+	border: 3px #424242 solid;
+	padding: 60px 80px 50px;
+	/*width: 600px;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+      top: 50%;
+	left: 50%;
+      transform: translate(-50%,-50%);
+}
+
+#victoriesLogo {
+	width: 460px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logoSubtitle {
+	text-align: center;
+	padding-top: 24px;
+	color: #424242;
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+
+.subtitle,
+input {
+	font-family: Poppins-SemiBold;
+	font-size: 11px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	border: none;
+}
+
+.subtitle {
+	padding-bottom: 3px;
+}
+
+#heatmap {
+	background-image: url("/images/seamless.jpg");
+	background-repeat: repeat-x;
+	display:flex;
+	justify-content: center;
+}
+
+.product {
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+}
+
+.productImages {
+	position: relative;
+	width: 440px;
+	margin-left: 80px;
+}
+
+.pictureTwo {
+	position: absolute;
+	top: 0;
+}
+
+.productTag {
+	/*background-color: #FEF7E7;*/
+	width: 290px;
+	height: 330px;
+	margin-top: 12px;
+}
+
+.productActions {
+	/*background-color: #FEF7E7;*/
+}
+
+.productDetails {
+	outline: 1px solid #AAAAAA;
+	outline-offset: -8px ;
+	padding: 52px 28px;
+	background-color: #FEF7E7;
+}
+
+.productName {
+	font-family: Lora-BoldItalic;
+	font-size: 22px;
+	line-height: 29px;
+}
+
+.button {
+	background-color: #4A4A4A;
+	color: white;
+	text-align: center;
+	padding: 24px 0;
+}
+
+.getStarted {
+	background-color: #4CB9EF;
+}
+
+#demo {
+	background-color: #FEF7E7;
+	height: 66px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#otherServices,
+footer {
+	width: 430px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+#otherServices {
+	padding: 102px 0 66px;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.10);
+}
+
+input[type="submit"] {
+	width: 120px;
+	padding: 12px;
+	border-radius: 0px 4px 4px 0px;
+}
+
+input[type="text"] {
+	width: 288px;
+	padding: 12px;
+	border-radius: 4px 0px 0px 4px;
+}
+
+footer {
+	padding: 54px 0 80px;
+}
+
+.twitterButton {
+	padding-top: 18px;
+}
